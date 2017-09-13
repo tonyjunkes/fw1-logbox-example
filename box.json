@@ -1,0 +1,10 @@
+{
+    "dependencies":{
+        "fw1":"be",
+        "logbox":"^4.3.0+188"
+    },
+    "installPaths":{
+        "fw1":"src\\framework",
+        "logbox":"src\\subsystems\\logbox"
+    }
+}
