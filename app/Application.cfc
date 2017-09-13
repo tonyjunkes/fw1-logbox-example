@@ -40,8 +40,8 @@ component extends="../src/framework/one"
 				}
 			}
 		},
-		trace = true,
-		reloadApplicationOnEveryRequest = true
+		trace: true,
+		reloadApplicationOnEveryRequest: true
 	};
 
 	public string function onMissingView(struct rc) {
