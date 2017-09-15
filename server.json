@@ -2,7 +2,8 @@
     "web":{
         "webroot":"app",
         "rewrites":{
-            "enable":true
+            "enable":true,
+            "config":"urlrewrite.xml"
         }
     }
 }
