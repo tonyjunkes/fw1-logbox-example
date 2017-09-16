@@ -32,7 +32,7 @@ component extends="../src/framework/one"
 				diConfig: {
 					loadListener: function(di1) {
 						di1.declare("LogBoxConfig").instanceOf("logbox.system.logging.config.LogBoxConfig")
-							.withOverrides({ CFCConfigPath: "logbox.LogBoxConfig" })
+							.withOverrides({ CFCConfigPath: "src.conf.LogBoxConfig" })
 							.done()
 							.declare("LogBox").instanceOf("logbox.system.logging.LogBox")
 							.withOverrides({ config: di1.getBean("LogBoxConfig") });
