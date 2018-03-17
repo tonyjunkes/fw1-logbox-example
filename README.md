@@ -1,6 +1,8 @@
 # FW/1 & LogBox Example
 An example of using LogBox as a Subsystem in an FW/1 application.
 
+http://tonyjunkes.com/blog/using-logbox-for-logging-in-fw1/
+
 ### How to use:
 
 - Make sure you have [Commandbox installed](https://commandbox.ortusbooks.com/content/setup/installation.html).
