@@ -5,5 +5,8 @@
             "enable":true,
             "config":"urlrewrite.xml"
         }
+    },
+    "app":{
+        "cfengine":"adobe@2018"
     }
 }
