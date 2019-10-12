@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<urlrewrite>
-    <rule>
-        <name>Intercept favicon.ico request</name>
-        <from>^/favicon.ico$</from>
-        <set type="status">403</set>
-        <to>null</to>
-    </rule>
-</urlrewrite>

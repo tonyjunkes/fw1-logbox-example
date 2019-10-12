@@ -8,7 +8,7 @@ component {
                     levelMax = "WARN",
                     levelMin = "FATAL",
                     properties = {
-                        filePath = "../logs",
+                        filePath = "./logs",
                         autoExpand = true,
                         fileMaxSize = 3000,
                         fileMaxArchives = 5

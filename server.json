@@ -1,9 +1,3 @@
 {
-    "web":{
-        "webroot":"app",
-        "rewrites":{
-            "enable":true,
-            "config":"urlrewrite.xml"
-        }
-    }
+    "name":"fw1-logbox-example"
 }

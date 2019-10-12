@@ -1,22 +1,16 @@
 {
     "name":"fw1-logbox-example",
-    "version":"0.1.0",
+    "version":"0.2.0",
     "author":"Tony Junkes",
     "shortDescription":"An example of using LogBox as a Subsystem in an FW/1 application.",
     "description":"An example of using LogBox as a Subsystem in an FW/1 application.",
     "instructions":"Drop it in, fire up Commandbox, type server start and go!",
-    "engines":[
-        {
-            "type":"lucee",
-            "version":">=4.5.x"
-        }
-    ],
     "dependencies":{
         "fw1":"be",
-        "logbox":"^4.3.0+188"
+        "logbox":"^5.6.2"
     },
     "installPaths":{
-        "fw1":"src\\framework",
-        "logbox":"src\\subsystems\\logbox"
+        "fw1":"framework/",
+        "logbox":"subsystems/logbox/"
     }
 }

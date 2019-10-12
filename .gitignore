@@ -1,6 +1,9 @@
+# IDE
+.vscode
+.idea
 # FW/1 folder
-src/framework
+framework
 # Ignore log files
-logs/*.log
+**/logs
 # Ignore the LogBox lib
-src/subsystems/logbox
+subsystems/logbox
