@@ -1,6 +1,6 @@
 # FW/1 folder
-src/framework
+app/framework
 # Ignore log files
 logs/*.log
 # Ignore the LogBox lib
-src/subsystems/logbox
+app/subsystems/logbox
